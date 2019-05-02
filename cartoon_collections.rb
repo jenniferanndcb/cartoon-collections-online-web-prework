@@ -1,11 +1,11 @@
 def roll_call_dwarves (names)
-  names.map.with_index(1) do |names, i| 
-    puts "#{i}. #{names}"
+  names.each_with_index do |names, i| 
+    puts "#{i+1}. #{names}"
   end 
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet
+  
 end
 
 def long_planeteer_calls# code an argument here
